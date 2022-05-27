@@ -8,14 +8,14 @@ public class Point {
             double fourth = Math.pow(second, 2);
             double fifth = third + fourth;
             double sixth = Math.sqrt(fifth);
-            return sixth;
+                return sixth;
         }
 
         public static void main(String[] args) {
             double result1 = Point.distance(0, 0, 3, 4);
-            System.out.println("result (0, 0) to (3, 4) " + result1);
+                System.out.println("result (0, 0) to (3, 4) " + result1);
             double result2 = Point.distance(1, 1, 2, 2);
-            System.out.println("result (1, 1) to (2, 2) " + result2);
+                System.out.println("result (1, 1) to (2, 2) " + result2);
         }
 }
 
